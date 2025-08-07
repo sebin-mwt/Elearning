@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .carousel img{
     width: 90%;
     height: auto;
