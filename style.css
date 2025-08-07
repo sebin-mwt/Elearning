@@ -1,0 +1,128 @@
+.carousel img{
+    width: 90%;
+    height: 500px;
+    object-fit:fill;
+
+}
+
+.card {
+  background-color: rgb(230, 255, 255) !important;
+  border: none;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.pop-up:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about img{
+    width: 100%;
+    padding: 10px;
+    height: 350px;
+}
+
+
+.about-body{
+    padding: 10px;
+}
+
+
+.h1-color{
+    padding-top:10px ;
+    margin-left: 20px;
+    color: rgb(8, 39, 39);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.h3-color{
+    color: rgb(155, 236, 236);
+    text-decoration: underline;
+}
+
+.about-des{
+    padding-top: 25px;
+    line-height: 30px;
+}
+
+.about button ,.about button:hover{
+
+    color: rgb(63, 215, 215);
+    border: 1px solid rgb(52, 180, 180) ; 
+}
+
+.categoryy img{
+
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid black;
+    object-fit:fill;
+
+}
+
+.categoryy .card{
+    margin-bottom: 10px
+}
+
+
+.course-details img{
+    width: 100%;
+    height: 180px;
+
+} 
+
+.viewall{
+    position: absolute;
+    margin-top:9px;
+    left: 85%;
+    margin-bottom: 6px;
+}
+
+
+.instructor-card {
+    width: 70%;
+    margin: auto;
+  }
+
+.instructor-card img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.site-footer {
+  background-color: rgb(31, 3, 79);
+  color: white;
+  margin-top: 8px;
+  padding-top: 20px;
+}
+
+.site-footer h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.site-footer ul {
+  padding-left: 0;
+}
+
+.site-footer li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-footer input.form-control {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}

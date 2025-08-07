@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    
+<!--Navbar start-->
+    <nav class="navbar navbar-expand-lg bg-body-white h-50">
+  <div class="container-fluid ms-3 ">
+
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-book fa-beat" style="color: #74C0FC;"></i>ELearning</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#course">COURSES</a>
+        </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#instructor">Our Team</a></li>
+            <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#category">Categories</a></li>
+          </ul>
+
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">CONTACT</a>
+        </li>
+
+      
+      </ul>
+
+        <div class="d-flex">
+            <a class="btn btn-info px-4 py-2 " href="register.html" target="_blank" role="button" style="color: white; min-width: 160px; text-align: center;">
+               Join Now <i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #f3f3f3;"></i>
+            </a>
+        </div>
+
+
+    </div>
+  </div>
+    </nav>
+  
+
+<!--Carousel start-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+
+      <div class="carousel-inner" >
+
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./Images/image2_2.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Images/imagelast~2.png" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+  
+<!--top cards-->
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      
+      <!-- Column 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mt-md-2 mt-sm-2">
+
+        <div class="card pop-up" style="width: 100%;">
+
+          <div class="card-body text-center">
+            <div class="d-flex justify-content-center">
+
+              <p>
+                <i class="fa-solid fa-user fa-2xl" style="color: #6ae2ba;"></i>
+              </p>
+
+            </div>
+            <h5 class="card-title">Instructor</h5>
+
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card’s content.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+
+    <!--column 2-->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mt-md-2 mt-sm-2">
+
+        <div class="card pop-up" style="width: 100%;">
+
+          <div class="card-body text-center">
+            <div class="d-flex justify-content-center">
+
+              <p>
+                <i class="fa-solid fa-globe fa-2xl" style="color: #6ae2ba;"></i>
+              </p>
+
+            </div>
+            <h5 class="card-title">Online Courses</h5>
+
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card’s content.
+            </p>
+
+          </div>
+        </div>
+      </div>
+   
+
+     <!--column 3-->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mt-md-2 mt-sm-2">
+
+        <div class="card pop-up" style="width: 100%;">
+
+          <div class="card-body text-center">
+            <div class="d-flex justify-content-center">
+
+           <p>
+            <i class="fa-solid fa-book fa-2xl" style="color: #6ae2ba;"> </i>
+          </p>
+
+            </div>
+            <h5 class="card-title">Book Library</h5>
+
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card’s content.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+
+<!-- About-->
+    <div class="container about" id="about" >
+
+      <div class="row">
+
+      <div class="text-center">
+        
+          <h4 class="h3-color" >  <i class="fa-solid fa-angle-left fa-xs"></i>About Us<i class="fa-solid fa-angle-right fa-xs"></i> </h4>
+                
+      </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-md-2 mt-sm-2 ">
+          <img src="./Images/about.jpg" alt="no image">
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-md-2 mt-sm-2 about-body">
+
+           <h1 class="h1-color"> Welcome to ELearning</h1>
+
+             <p  class="about-des">At ELEARN, we`re redefining education through technology. Our platform offers flexible, high-quality online 
+              courses designed to help individuals and organizations learn, grow, and succeed—anytime, anywhere.
+              Whether you're upskilling, reskilling, or exploring new interests, ELEARN is here to support your journey.</p>
+           
+           <button class="btn rounded-pill" type="submit">Read More <i class="fa-solid fa-arrow-right" style="color: rgb(52, 180, 180);"></i></button>
+
+        </div>
+
+      </div>
+
+    </div> 
+
+<!-- Category-->
+  
+    <div class="categoryy  container"  id="category" >
+
+    <div class="text-center">
+
+      <h4 class="h3-color" ><i class="fa-solid fa-angle-left fa-xs"></i>Categories<i class="fa-solid fa-angle-right fa-xs"></i> </h4>
+      <h1 class="h1-color">Course Category</h1>
+  
+    </div>
+    
+      <!--row 1-->
+      <div class="row mt-3" data-aos="zoom-in-up">
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2">
+      
+          <div class="card pop-up" >
+            <img src="./Images/full-stack.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack</h5>
+              <p class="card-text">Full Stack involves building frontend and backend parts of web applications,
+                handling design, server logic, and database management.</p>
+
+              <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+
+            </div>
+          </div>
+      
+        </div>
+      
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up">
+            <img src="./Images/graphic_design.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text">Graphic Design is the art of visual communication using images, typography, and layout to convey ideas and messages effectively.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up">
+            <img src="./Images/mathss.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maths</h5>
+              <p class="card-text">Mathematics is the study of numbers, patterns, and structures, used to solve problems in science, engineering, and everyday life.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up" >
+            <img src="./Images/spoken_english.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spoken English</h5>
+              <p class="card-text">Spoken English focuses fluency, pronunciation and communication for effective everyday and professional English conversations.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+    
+      
+      </div>
+
+      <!--row 2-->
+      <div class="row mt-3"  data-aos="zoom-in-down" >
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2">
+      
+          <div class="card pop-up" >
+            <img src="./Images/full-stack.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack</h5>
+              <p class="card-text">Full Stack involves building frontend and backend parts of web applications,
+                handling design, server logic, and database management.</p>
+
+              <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+
+            </div>
+          </div>
+      
+        </div>
+      
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up">
+            <img src="./Images/graphic_design.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text">Graphic Design is the art of visual communication using images, typography, and layout to convey ideas and messages effectively.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up" >
+            <img src="./Images/mathss.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maths</h5>
+              <p class="card-text">Mathematics is the study of numbers, patterns, and structures, used to solve problems in science, engineering, and everyday life.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-md-2 mt-sm-2 ">
+      
+          <div class="card pop-up">
+            <img src="./Images/spoken_english.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spoken English</h5>
+              <p class="card-text">Spoken English focuses fluency, pronunciation and communication for effective everyday and professional English conversations.</p>
+                <div class="text-center">
+                <a href="#course" class="btn btn-outline-dark">View Details</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+    
+      
+      </div>
+
+      </div> 
+
+<!--Courses-->
+
+    <div class="container course-details" id="course">
+
+    <div class="text-center">
+
+      <h4 class="h3-color" ><i class="fa-solid fa-angle-left fa-xs"></i>Courses<i class="fa-solid fa-angle-right fa-xs"></i> </h4>
+      <h1 class="h1-color">All Courses</h1>
+  
+    </div>
+
+    <div>
+    
+    <!-- row 1-->
+      <div class="row mt-3" data-aos="zoom-out-up" >
+  
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935" class="card-img-top" alt="no image">
+        <div class="card-body">
+
+          <h5 class="card-title">Python Full Stack</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>John Doe</p>
+          
+          <p class="card-text">Full Stack involves building frontend and backend parts of web applications, using python, django, react and SQL.</p>
+          <p>Duration: 6 months</p>
+          <p>Price: $10</p>
+
+          <div class="text-center">
+            <a href="register.html" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713" class="card-img-top" alt="no img.">
+        <div class="card-body">
+          <h5 class="card-title">Java Full Stack</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Abhishek Manoj</p>
+          <p class="card-text">Full Stack involves building frontend and backend parts of web applications,using java,sprongboot,react and SQL.</p>
+          <p> Duration : 5 months</p>
+          <p>Price: $12</p>
+          <div class="text-center">
+            <a href="register.html" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2" class="card-img-top" alt="no img">
+        <div class="card-body">
+          <h5 class="card-title">MEARN Stack</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Rahul T R</p>
+          <p class="card-text">Full Stack involves building frontend and backend parts of web applications,using javascript,angular and mongo.</p>
+          <p> Duration : 6 months</p>
+          <p>Price: $10</p>
+          <div class="text-center">
+            <a href="register.html" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div> 
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="./Images/full-stack.png" class="card-img-top" alt="no img">
+        <div class="card-body">
+          <h5 class="card-title">.NET Full Stack</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Ajay R</p>
+          <p class="card-text">Full Stack involves building frontend and backend parts of web applications,using c#,larvel,react and SQL.</p>
+          <p> Duration : 6 months</p>
+          <p>Price: $10</p>
+          <div class="text-center">
+            <a href="register.html" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+      </div>
+      
+    <!-- row 2-->
+      <div class="row mt-3"  data-aos="zoom-out-up" >
+  
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1599507593548-0187ac4043c6" class="card-img-top" alt="no img">
+        <div class="card-body">
+          <h5 class="card-title">PHP</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Yedhu K</p>
+          <p class="card-text">PHP is a server-side scripting language used to build dynamic and interactive web applications.</p>
+          <p> Duration : 7 months</p>
+          <p>Price: $10</p>
+          <div class="text-center">
+            <a href="register.html" target="_blank" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://plus.unsplash.com/premium_photo-1679079455733-3f80a3b82f01" class="card-img-top" alt="no image">
+        <div class="card-body">
+          <h5 class="card-title">Video Editing</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Jissmon R</p>
+          <p class="card-text">Video editing involves cutting, arranging, and enhancing video clips to create professional, polished visual content.</p>
+          <p> Duration : 5 months</p>
+          <p>Price: $12</p>
+          <div class="text-center">
+            <a href="register.html" target="_blank" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1631582053308-40f482e7ace5" class="card-img-top" alt="no img">
+        <div class="card-body">
+          <h5 class="card-title">Animation</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Albin Antony</p>
+          <p class="card-text">Animation brings graphics or characters to life through motion, enhancing storytelling and visual engagement.</p>
+          <p> Duration : 6 months</p>
+          <p>Price: $7</p>
+          <div class="text-center">
+            <a href="register.html" target="_blank" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div> 
+
+      <div class="col-lg-3 col-md-6 col-sm-10 col-10 mt-md-2 mt-sm-2">
+  
+      <div class="card pop-up">
+        <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1" class="card-img-top" alt="no image">
+        <div class="card-body">
+          <h5 class="card-title"> Digital Marketing</h5>
+          <p class="text-muted mb-2"><i class="fa-solid fa-user" style="color: #4ccfe1;"></i>Amal S C</p>
+          <p class="card-text">Digital marketing promotes brands online using SEO, social media, content, and ads to reach targeted audiences.</p>
+          <p> Duration : 6 months</p>
+          <p>Price: $8</p>
+          <div class="text-center">
+            <a href="register.html" target="_blank" class="btn btn-outline-dark">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+      </div>
+
+    <div class="viewall">
+      <a href="#" >View All <i class="fa-solid fa-arrow-right" style="color: rgb(102, 148, 248);"></i></a>
+    </div>
+
+    </div>
+
+    </div> 
+
+<!--Instructors-->
+
+  <div class="container mt-5" id="instructor" data-aos="zoom-in">
+  
+    <div class="text-center">
+
+      <h4 class="h3-color">
+        <i class="fa-solid fa-angle-left fa-xs"></i> Instructor
+        <i class="fa-solid fa-angle-right fa-xs"></i>
+      </h4>
+
+      <h1 class="h1-color">Our Instructors</h1>
+
+    </div>
+
+    <div class="row gx-0 gy-2 justify-content-center">
+
+    <!-- Instructor 1 -->
+    <div class="col-lg-2 col-sm-5 col-md-4 col-10 text-center p-0">
+      <div class="card instructor-card">
+        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d" class="card-img-top" alt="user image">
+        <div class="card-body">
+          <h5 class="card-title">Abhishek Manoj</h5>
+          <p class="card-text">Full Stack</p>
+        </div>
+        <div class="p-2">
+          <span><a href="https://www.facebook.com/" class="card-link" title="facebook"><i class="fa-brands fa-facebook"></i></a></span>
+          <span><a href="https://www.instagram.com/" title="instagram" class="card-link"><i class="fa-brands fa-instagram"></i></a></span>
+          <span><a href="mailto:someone@example.com" title="mail" class="card-link"><i class="fa-solid fa-envelope"></i></a></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructor 2 -->
+    <div class="col-lg-2 col-sm-5 col-md-4 col-10 text-center ">
+      <div class="card instructor-card">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80" class="card-img-top" alt="user image">
+        <div class="card-body">
+          <h5 class="card-title">Rahul T R</h5>
+          <p class="card-text">Full Stack Developer</p>
+        </div>
+        <div class="p-2">
+          <span><a href="https://www.facebook.com/" class="card-link" title="facebook"><i class="fa-brands fa-facebook"></i></a></span>
+          <span><a href="https://www.instagram.com/" class="card-link" title="instagram"><i class="fa-brands fa-instagram"></i></a></span>
+          <span><a href="mailto:someone@example.com" title="mail" class="card-link" title="Email"><i class="fa-solid fa-envelope"></i></a></span>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructor 3 -->
+    <div class="col-lg-2 col-sm-5 col-md-4 col-10 text-center ">
+      <div class="card instructor-card">
+        <img src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218" class="card-img-top" alt="user image">
+        <div class="card-body">
+          <h5 class="card-title">Yedhu K</h5>
+          <p class="card-text">Graphic Design</p>
+        </div>
+
+        <div class="p-2">
+          <span><a href="https://www.facebook.com/" class="card-link" title="facebook"><i class="fa-brands fa-facebook"></i></a></span>
+          <span><a href="https://www.instagram.com/" class="card-link" title="instagram"><i class="fa-brands fa-instagram"></i></a></span>
+          <span><a href="mailto:someone@example.com" title="mail" class="card-link" title="Email"><i class="fa-solid fa-envelope"></i></a></span>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Instructor 4 -->
+    <div class="col-lg-2 col-sm-5 col-md-4 col-10 text-center">
+      <div class="card instructor-card">
+        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1" class="card-img-top" alt="user image">
+        <div class="card-body">
+          <h5 class="card-title">Jissmon Raju</h5>
+          <p class="card-text">Social Media</p>
+        </div>
+
+        <div class="p-2">
+          <span><a href="https://www.facebook.com/" class="card-link"><i class="fa-brands fa-facebook"></i></a></span>
+          <span><a href="https://www.instagram.com/" class="card-link"><i class="fa-brands fa-instagram"></i></a></span>
+          <span><a href="mailto:someone@example.com" title="mail" class="card-link"><i class="fa-solid fa-envelope"></i></a></span>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--footer-->
+    <footer class="site-footer" id="footer">
+
+      <div class="container text-white pt-3">
+
+        <div class="row">
+
+          <!-- Get in Touch -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <h5>Get In Touch..</h5>
+            <input type="text" class="form-control" placeholder="Your email or message">
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-3 col-sm-6 text-center mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">> Home</a></li>
+              <li><a href="#about">> About</a></li>
+              <li><a href="#course">> Courses</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacts -->
+          <div class="col-md-3 col-sm-6 text-center mb-4">
+            <h5>Contacts</h5>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-location-dot" style="color: #dacde3;"></i> Location: Infopark Kochi</li>
+              <li><i class="fa-solid fa-house" style="color: #dacde3;"></i> Address: Main Street, Kochi</li>
+              <li><i class="fa-solid fa-phone" style="color: #dacde3;"></i> Phone: +91 98765 43210</li>
+              <li><i class="fa-solid fa-envelope" style="color: #dacde3;"></i> Email: info  @example.com</li>
+            </ul>
+          </div>
+
+          <!--follow us-->
+
+        <div class="col-md-3 col-sm-6 mb-4 text-center">
+            <h5>Follow Us</h5>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white fs-4"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+
+
+        </div>
+      </div>
+      <div class="text-center border-top pt-3">
+        copyright @2025
+      </div>
+    </footer>
+
+
+</body>
+
+<script>
+  AOS.init();
+</script>
+
+</html>

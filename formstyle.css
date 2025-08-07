@@ -1,0 +1,32 @@
+body {
+
+      background-image: url('https://images.unsplash.com/photo-1480072723304-5021e468de85');
+      background-size:contain;
+      background-position: center;
+      height: 100vh;
+    
+    } 
+
+.form-wrapper {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+.form-container {
+  
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      width: 400px;
+
+    }
+
+.form-container label {
+      font-weight: 600;
+    }
+
+    /* https://github.com/sebin-mwt/Html-Works.git */
