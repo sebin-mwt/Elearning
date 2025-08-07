@@ -1,6 +1,6 @@
 .carousel img{
     width: 90%;
-    height: 500px;
+    height: auto;
     object-fit:fill;
 
 }
@@ -21,7 +21,7 @@
 .about img{
     width: 100%;
     padding: 10px;
-    height: 350px;
+    height: auto;
 }
 
 
