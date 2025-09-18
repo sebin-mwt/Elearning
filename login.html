@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/CSS/formstyle.css">
+  
+</head>
+<body>
+
+  <div class="form-wrapper">
+    <div class="form-container">
+      <h4 class="text-center">Login Form</h4>
+      
+      <form id="form" action="">
+        <div class="mb-3">
+
+          <label for="name">Name:</label>
+          <input id="name" type="text" class="form-control">
+          <span id="name_error" class="error-msg-colr"> </span>
+
+        </div>
+
+        <div class="mb-3">
+
+          <label for="">Email:</label>
+          <input id="email" type="email" class="form-control">
+          <span id="email_error" class="error-msg-colr"> </span>
+
+        </div>  
+
+        <div class="mb-3">
+
+            <label for="">Password</label>
+            <input type="password" name="password" id="password" class="form-control">
+            <!-- <p><ul style="font-size: smaller;">
+              <li>Password contains atleast 1 capital,small letter</li>
+              <li>Password contains atleast one number</li>
+              <li>Password length >= 8   </li>
+            </ul></p> -->
+            <span id="password_error" class="error-msg-colr"></span>
+
+        </div>
+
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-dark rounded-pill">Submit</button>
+        </div>
+
+      </form>
+    
+    <div class="d-flex justify-content-between">
+    
+          <span>Not Registered..?<a href="register.html">register</a></span>
+          <span><a href="index.html">Go Home</a></span>
+    </div>
+
+    </div>
+  </div>
+
+</body>
+<script src="./Assets/JS/scriptLogin.js"></script>
+</html>

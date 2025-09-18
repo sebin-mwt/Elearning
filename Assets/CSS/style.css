@@ -65,12 +65,12 @@ body{
 
 } 
 
-.viewall{
-    position: absolute;
-    margin-top:9px;
-    left: 85%;
-    margin-bottom: 6px;
-}
+  .viewall{
+      position: absolute;
+      margin-top:9px;
+      left: 85%;
+      margin-bottom: 6px;
+  }
 
 
 .instructor-card {
@@ -158,7 +158,7 @@ body{
   color: #00bcd4;
 }
 
-.course-caption a{
+.course-caption a{  
   color: #00bcd4;
   text-decoration: none;
   font-size: 13px;
