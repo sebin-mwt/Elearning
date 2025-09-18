@@ -29,4 +29,15 @@ body {
       font-weight: 600;
     }
 
-    /* https://github.com/sebin-mwt/Html-Works.git */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.error-msg-colr{
+  color: red; font-size: small ;
+}
+
+/* https://github.com/sebin-mwt/Html-Works.git */
